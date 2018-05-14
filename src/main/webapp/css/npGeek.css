@@ -1,0 +1,340 @@
+﻿/* ------ Universal Page Styles ------ */
+body {
+	background-color: #495d6d;
+	font-family: sans-serif;
+	margin: 0 auto;
+}
+
+ul {
+	padding: 0px;
+}
+
+p, label, div.form-field {
+	font-size: 14px;
+}
+
+header {
+	width: 100%;
+	clear: both;
+	background-color: #44515d;
+}
+
+header h1 {
+	font-size: 30px;
+	color: #FFFFFF;
+	padding-left: 3%;
+}
+
+header p {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+header img {
+	height: 110px;
+	border-radius: 8px;
+}
+
+.logo {
+	background-color: #495d6d;
+}
+
+nav {
+	padding: 0.1% 0 0.5% 0;
+	background-color: #44515d;
+}
+
+nav h2, nav p {
+	color: #FFF;
+	padding-left: 25px;
+}
+
+nav p {
+	font-size: 12px;
+	font-style: italic;
+}
+
+li {
+	padding-bottom: 4px;
+}
+
+li a {
+	color: #0D118B;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: left;
+}
+
+nav ul li {
+	background-color: #FFF;
+	border-radius: 8px;
+	list-style: none;
+	text-align: center;
+	flex-grow: 1;
+	padding-top: 5px;
+	margin: 0 10px;
+	max-width: 200px;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+section.centeredPanel {
+	clear: both;
+	display: block;
+	width: 95%;
+	vertical-align: top;
+	min-height: 450px;
+	background-color: #353027;
+	border-radius: 7px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 20px 10px 50px #000000;
+}
+
+section.centeredPanel h2 {
+	color: #000000;
+	text-align: center;
+	padding-top: 15px;
+}
+
+section.centeredPanel p {
+	color: #000;
+	text-align: left;
+}
+
+.parkState {
+	font-size: 85%;
+	font-style: italic;
+	background-color: rgba(238, 220, 116, 0.8);
+	border-radius: 8px;
+	text-align: center;
+}
+
+.parkImage {
+	width: 100%;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+
+
+
+/* ------ Home Page ------ */
+
+.parkContainer {
+	padding: 1%
+}
+
+.homeParkImg {
+	width: 25%;
+	display: inline-block;
+	padding-right: 1%;
+}
+
+.parkName {
+	color: white;
+}
+
+.homeParkInfo {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.homeParkDescription {
+	padding: 5% 5%;
+	background-color: #FFF;
+	text-align: left;
+	border-radius: 8px;
+	box-shadow: 20px 10px 50px #000000;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+}
+
+
+
+/* ------ Park Detail Page ------ */
+
+.detailParkName {
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}
+
+.descriptionRight {
+	display: inline-block;
+	width: 50%;
+}
+
+.parkDetailTop {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 450px;
+	width: 49%;
+	border-radius: 8px;
+	display: inline-block;
+	vertical-align: top;
+	border: 2px solid black;
+	margin-top: 0.4%;
+}
+
+.parkDescription {
+	background-color: white;
+	border-radius: 8px;
+	vertical-align: top;
+	opacity: 0.5;
+	margin: 1%;
+	padding: 1%;
+}
+
+.outputParkStats {
+	width: 30%;
+	background-color: white;
+	border-radius: 8px;
+	padding: 1%;
+	opacity: 0.8;
+	margin: 1%;
+	padding: 1%;
+}
+
+.forecastSection {
+	margin-left: 1%;
+	display: inline-block;
+	color: rgba(238, 220, 116, 0.8);
+}
+
+.fiveDayHeader {
+	text-align: center;
+	font-size: 2em;
+	color: rgba(238, 220, 116, 0.8);
+	text-decoration: underline;
+}
+
+.forecast {
+	padding-top: 2%;
+}
+
+.forecastImgDiv {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.forecastImg {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.dayForecast {
+	padding: 10px 5px;
+}
+
+.dayForecast:first-child {
+	vertical-align: top;
+	width: 30%;
+	display: inline-block;
+	background-color: #000000;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.dayForecast:nth-child(n+2) {
+	vertical-align: top;
+	width: 15%;
+	display: inline-block;
+}
+
+.dayForecast:nth-child(n+2) ul,
+.dayForecast:nth-child(n+2) .forToday
+ {
+	display: none;
+}
+
+.dayForecast ul li {
+	list-style-position: inside;
+}
+
+.low {
+	display: block;
+}
+
+.tempFormatForm {
+	text-align: right;
+	display: block;
+}
+
+.inspirationalQuote {
+	font-weight: lighter;
+	padding-top: 5%;
+	font-style: italic;
+}
+
+.inspirationalQuoteSource {
+	text-align: right;
+}
+
+/* ------ Survey Page ------ */
+
+.survey {
+	text-align: center;
+}
+
+.survey p {
+	color: white;
+}
+
+.button {
+	padding: 1%;
+}
+
+.form-group {
+	margin: 0 auto;
+}
+
+
+
+/* ------ Favorite Parks Page ------ */
+
+.favHeader {
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	padding: 2% 1%;
+}
+
+.favParkList {
+	text-align: center;
+}
+
+.favParkList .parkContainer {
+	vertical-align: top;
+	border-radius: 8px;
+	background-repeat: no-repeat;
+	height: 250px;
+	text-shadow: 2px 2px black;
+	width: 20%;
+	display: inline-block;
+	margin: 0.2%;
+}
+
+.output {
+	display: block;
+	vertical-align: 50%;
+	color: white;
+}
+
+/* ------ Footer ------ */
+
+.copyright {
+	color: #9b9a9c;
+	text-align: center;
+	background-color: #44515d;
+	padding: 1% 0;
+}
